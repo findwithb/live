@@ -15,6 +15,15 @@ payments, or sign leases.
 * The b. MCP server at `https://findwithb.com/mcp`. No account or sign in is needed.
 * Skills that tell Claude how to use the tours well.
 
+## Data and services
+
+* The `check-listings-with-b` skill can check a listing without the connector by
+  opening `https://findwithb.com/lookup?format=json&listing=` with the listing link or
+  street address. That endpoint is run by b. on the same server and answers the same way.
+* Tool inputs are used to answer and then discarded. The one exception is `request_tour`,
+  which stores the listing address or link, its city, an optional note (emails and phone
+  numbers removed) and an optional date, with no name or contact details.
+
 ## Links
 
 * Documentation: https://findwithb.com/connect
