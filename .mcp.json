@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "b": {
+      "type": "http",
+      "url": "https://findwithb.com/mcp"
+    }
+  }
+}
